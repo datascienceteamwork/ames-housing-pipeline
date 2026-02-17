@@ -27,23 +27,6 @@ The Ames Housing Dataset serves as a modern, more comprehensive alternative to t
 
 The dataset presents realistic challenges including data quality issues, feature heterogeneity, and complex relationships between predictors and target variables.
 
-## Repository Structure
-
-```
-├── data/
-│   └── AmesHousing.csv
-├── images/
-│   ├── eda/
-│   ├── feature_importance/
-│   └── clustering/
-├── src/
-│   └── ames_housing_evaluator.py
-├── report/
-│   └── ames_housing_report.tex
-├── README.md
-└── requirements.txt
-```
-
 **Directory Descriptions:**
 - `data/`: Raw dataset files
 - `images/`: Generated visualizations organized by analysis type
@@ -176,6 +159,10 @@ To execute the complete analytical pipeline:
 ```bash
 python src/ames_housing_evaluator.py
 ```
+to install dipendencies:
+''' bash 
+pip install -r requirements.txt
+'''
 
 The script performs the following operations sequentially:
 1. Dataset loading and initial inspection
@@ -201,6 +188,3 @@ Potential extensions to enhance the framework:
 
 This project is intended for academic and educational purposes.
 
-## Acknowledgments
-
-The Ames Housing Dataset was compiled by Dean De Cock for use in data science education as an alternative to the Boston Housing Dataset.
